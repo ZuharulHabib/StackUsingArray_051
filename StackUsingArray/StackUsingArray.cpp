@@ -21,5 +21,10 @@ public:
 
 		top++;
 		stack_array[top] = element;
+
+		cout << endl;
+		cout << element << "Ditambahkan (pushed)." << endl;
+
+		return element;
 	}
 };
