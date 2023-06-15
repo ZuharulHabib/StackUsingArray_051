@@ -27,4 +27,17 @@ public:
 
 		return element;
 	}
+
+	bool empty() {
+		return (top == 1);
+
+	}
+
+	void pop() {
+		if (empty()) {
+			cout << "\nStack inf empty. Cannot pop." << endl;
+			return;
+
+		}
+	}
 };
