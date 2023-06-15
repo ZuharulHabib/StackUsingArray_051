@@ -17,7 +17,7 @@ public:
 		if (top == 4) {
 			cout << "stack Full" << endl;
 			return "";
-		}
+		} 
 
 		top++;
 		stack_array[top] = element;
