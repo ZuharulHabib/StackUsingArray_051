@@ -64,7 +64,7 @@ int main() {
 		cout << "1. Push\n";
 		cout << "2. Pop\n";
 		cout << "3. Display\n";
-		cout << "4. Exit\n";
+		cout << "4. Exit\n"; 
 		cout << "\nEnter you choice: ";
 		string input;
 		getline(cin, input);
