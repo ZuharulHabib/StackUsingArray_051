@@ -39,5 +39,18 @@ public:
 			return;
 
 		} 
+		cout << "\nThe popped elemnt is : " << stack_array[top] << endl;
+		top--;
+	}
+
+	void display() {
+		if (empty()) {
+			cout << "\nStack is empty." << endl;
+		}
+		else {
+			for (int tmp = top; tmp >= 0; tmp--) {
+				cout << stack_array[tmp] << endl;
+			}
+		}
 	}
 };
