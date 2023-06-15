@@ -55,7 +55,7 @@ public:
 	}
 };
 
-int main() {
+int main() { 
 	Program s;
 
 	while (true) {
