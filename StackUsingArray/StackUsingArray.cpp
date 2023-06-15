@@ -38,6 +38,6 @@ public:
 			cout << "\nStack inf empty. Cannot pop." << endl;
 			return;
 
-		}
+		} 
 	}
 };
